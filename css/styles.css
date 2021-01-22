@@ -68,10 +68,14 @@
 /* PROGRAMS section */
 .programs {
     text-align: center;
+    margin: 4rem auto;
+}
+
+.programs .line {
+    margin: 2rem auto;
 }
 
 .programs__content {
-    margin: 2rem auto;
     display: flex;
     justify-content: center;
 }
@@ -79,8 +83,14 @@
 .programs__item {
     padding: 10px;
     width: 25%;
+    text-align: left;
 }
 
 .programs__item img {
     width: 100%;
+}
+
+.programs__item h4 {
+    margin: 10px auto;
+    color: #b31c25;
 }
